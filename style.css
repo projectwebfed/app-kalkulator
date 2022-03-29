@@ -1,7 +1,18 @@
 body {
-    background-color: blue;
+    background-color: #059DC0;
 }
 
 .navbar {
     background-color: aqua;
+}
+
+.title{
+    margin-left: 230px;
+    font-size: 30px;
+    color: #4C5270;
+    
+}
+
+.fa-calculator-simple {
+    color: red;
 }
