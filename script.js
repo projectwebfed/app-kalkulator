@@ -1,9 +1,9 @@
-function insert (num) {
-    document.form.hasil.value = document.form.hasil.value+num;
+function insert(num) {
+    document.form.hasil.value = document.form.hasil.value + num;
 }
 
 function equal() {
-    const exp = document. form.hasil.value; 
+    const exp = document.form.hasil.value;
     if (exp) {
         document.form.hasil.value = eval(exp);
     }
@@ -15,5 +15,6 @@ function clean() {
 
 function back() {
     const exp = document.form.hasil.value;
-    document.form.hasil.value = exp.substring(0,exp.length-1);
+    document.form.hasil.value = exp.substring(0, exp.length - 1);
 }
+
