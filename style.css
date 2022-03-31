@@ -1,16 +1,21 @@
-body {
-    background-color: #059DC0;
-}
-
 .navbar {
-    background-color: aqua;
+    background-color: #4C5270;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
-.title {
-
-    color: #4C5270;
-
+.navbar span {
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+.jumbotron {
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+
 
 .container-cc {
     margin-top: 100px;
@@ -27,7 +32,7 @@ body {
 }
 
 .tombol:hover {
-    background-color: burlywood;
+    background-color: #000C66;
 }
 
 .form {}
@@ -46,4 +51,66 @@ body {
     background: white;
     opacity: .7;
     margin-top: 150px;
+}
+
+.card {
+    margin-top: 55px;
+    background-color: #D6AD60;
+}
+
+.card-body {
+    margin-top: -120px;
+}
+
+.navbar span {
+    animation-name: animasi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animasi {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+
+    10% {
+        color: #b4adfa;
+    }
+
+    20% {
+        color: #221ffa;
+    }
+
+    30% {
+        color: #00bd10;
+    }
+
+    40% {
+        color: rgb(255, 0, 0);
+    }
+
+    50% {
+        color: #005807;
+    }
+
+    60% {
+        color: rgb(255, 0, 149);
+    }
+
+    70% {
+        color: #468dbd;
+    }
+
+    80% {
+        color: #ffcc00;
+    }
+
+    90% {
+        color: #0099ff;
+    }
+
+    100% {
+        color: rgb(252, 208, 215);
+    }
 }
